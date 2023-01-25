@@ -12,3 +12,8 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+sed -i 's/192.168.1.1/192.168.1.5/g' package/base-files/files/bin/config_generate
+sed -i 's/UTC/CST-8/g' package/base-files/files/bin/config_generate
+sed -i 's/%D %V %C/OpenWrt By Pencail/g' package/base-files/files/etc/openwrt_release
+sed -i 's/%C/By Pencail/g' package/base-files/files/etc/banner
